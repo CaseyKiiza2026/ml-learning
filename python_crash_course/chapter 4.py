@@ -23,8 +23,8 @@
  #print(values)
 
 #exercise 4.7
-for values in range(3,30,3):
-    print(values) 
+#for values in range(3,30,3):
+ #   print(values) 
 
 #exercise 4.8
 #cubes = []
@@ -36,3 +36,15 @@ for values in range(3,30,3):
 #cube comprehension
 #cubes = [value**3 for value in range (1,11)]
 #print(cubes)
+
+#Practice
+prices = [12000, 25000, 18000, 42000, 31000, 9000]
+
+def total_expensive_cars(prices):
+    total = 0
+    for values in prices:
+        if values > 20000:
+            total = total + values
+    return(total)
+
+print(total_expensive_cars(prices))
