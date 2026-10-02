@@ -50,6 +50,10 @@
 #print(total_expensive_cars(prices))
 
 # More Practice
+#squared = [number ** 2 for number in range(2,21,2)]
+#print(squared)
 
-squared = [number ** 2 for number in range(2,21,2)]
-print(squared)
+# more practice
+mileage = [5000, 12000, 8000, 25000, 6000, 31000]
+mile =  [value / 1000 for value in mileage if value < 10000 ]
+print(mile)
