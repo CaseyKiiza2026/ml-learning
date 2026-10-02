@@ -38,13 +38,18 @@
 #print(cubes)
 
 #Practice
-prices = [12000, 25000, 18000, 42000, 31000, 9000]
+#prices = [12000, 25000, 18000, 42000, 31000, 9000]
 
-def total_expensive_cars(prices):
-    total = 0
-    for values in prices:
-        if values > 20000:
-            total = total + values
-    return(total)
+#def total_expensive_cars(prices):
+ #   total = 0
+  #  for values in prices:
+   #     if values > 20000:
+    #        total = total + values
+    #return(total)
 
-print(total_expensive_cars(prices))
+#print(total_expensive_cars(prices))
+
+# More Practice
+
+squared = [number ** 2 for number in range(2,21,2)]
+print(squared)
