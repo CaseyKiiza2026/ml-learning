@@ -58,3 +58,17 @@
 #mile =  [value / 1000 for value in mileage if value < 10000 ]
 #print(mile)
 
+
+#====LEET CODE=====#
+# two sum challenge
+#def two_sum(num, target):
+   
+ #  seen = {}
+     
+  # for index, value in enumerate(num):
+   #    needed = target - value
+   #if needed in seen:
+    #   return seen[needed], index
+   #seen[value] = index
+
+#CONTAINS DUPLICATE
