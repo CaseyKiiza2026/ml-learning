@@ -58,8 +58,3 @@
 #mile =  [value / 1000 for value in mileage if value < 10000 ]
 #print(mile)
 
-cyborgs: int = 10
-robots: int = 2
-droids: int = 5
-
-print(cyborgs, robots, droids)
